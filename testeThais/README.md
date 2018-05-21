@@ -17,7 +17,7 @@ Obrigado e abs.
 
 
 # Correção
-Bom dia, Prezados! Tudo bem?
+Prezados, bom dia! Tudo bem?
 
 Referente aos próximos passos, foi definido que precisaremos refazer o tagueamento dos produtos existentes. Vocês poderiam nos enviar a proposta de como vamos prosseguir? Tempo, arquitetura, etc.
 
