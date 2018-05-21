@@ -10,6 +10,8 @@ Estou desenvolvendo o TechSpec para enviar para o Dev, mas estou com algumas dú
 
 Podemos conversar ainda hoje?
 
+Obs: Não recebi o anexo do email do Rafael, poderia reenviar?
+
 Obrigado e abs.
 
 
