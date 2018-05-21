@@ -1,12 +1,17 @@
 # Pablo
 
-Muito bom dia Rafael. Tudo bem?
+Bom dia Rafael e Tiago. Tudo bem?
 
-Referente ao fluxo de contratação de Crédito. Eu acabei o Solution Desing e preciso iniciar o TechSpec hoje, preciso alinhar com você como vamos tocar a nova implementação dado que não podemos interferir o legado. E como o Tech-Spec vai conversar com sua implementação no DTM.
+Referente aos próximos passos. Foi definido que vamos precisar refazer o tagueamento dos produtos existentes, vocês poderiam nos enviar a proposta de como vamos prosseguir? Tempo, arquitetura e etc.
 
-Podemos conversar hoje as 11h?
+Outra coisa, o novo fluxo de crédito, eu já defini uma nova arquitetura e preciso alinhar com vocês como vamos implementar a solução dado que não podemos deixar de mensurar o legado.
 
-Obrigado e abs 
+Estou desenvolvendo o TechSpec para enviar para o Dev, mas estou com algumas dúvidas referente as triggers e dataLayer.
+
+Podemos conversar ainda hoje?
+
+Obrigado e abs.
+
 
 
 # Correção
