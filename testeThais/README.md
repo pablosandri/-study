@@ -14,7 +14,7 @@ Adobe Analytics > Workspace > View Crédito
 
 
 
-Caso vocês tenham sugestões ou dúvidas sobre os dados fornecidos estou a disposição.
+Caso vocês tenham sugestões ou dúvidas sobre os dados fornecidos estou à disposição.
 
 	Obs: O funil de conversão de Crédito está com Bug, estou investigando o incidente.
 
