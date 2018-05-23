@@ -7,6 +7,11 @@ Estou compartilhando com vocês uma View de Crédito para acompanhamento Diário
 Segue o link:
 https://sc5.omniture.com/x/5_61akj
 
+ou 
+
+Caminho: 
+Adobe Analytics > Workspace > View Crédito
+
 
 
 Caso vocês tenham sugestões ou dúvidas sobre os dados fornecidos estou a disposição.
