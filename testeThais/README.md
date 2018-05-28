@@ -17,7 +17,9 @@ Obrigado e abs.
 # Correção
 
 Prezados, boa noite! Tudo bem?
+
 Referente ao blog, fui pego de surpresa com a notícia que o mesmo vai subir Segunda. Então desenvolvi os documentos Solution Design e TechSpec hoje, já prevendo como será a camada de dados e disparos das triggers. Vocês poderiam configurar o DTM em staging esperando esses eventos?
+
 Segue o documento anexo. Também estou enviando ata da entrevista, que especifica as visões que a área gostaria de ter na Adobe.
 
 
