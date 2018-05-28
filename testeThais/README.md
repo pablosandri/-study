@@ -17,9 +17,9 @@ Um visitante com a origem do blog realizou uma conversão(cadastro e etc) como s
 
 No mesmo Report Suite:
 	
-Lead | Touch Channel | Obs
-------- | ---------------- | ---------- 
-1 | Campaign Source(x)   | O Lead vai ser atribuído para a campanha que levou o visitante para o blog.
+Lead | Touch Channel | Internal Campaign| Cam Obs
+------- | ----------------| ----- | ---------- 
+1 | Campaign Source(x)   | Blog |O Lead vai ser atribuído para a campanha que levou o visitante para o blog.
    
 	
 	
