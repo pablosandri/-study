@@ -1,33 +1,14 @@
 # Pablo
 
-Olá Pessoal, bom dia. Tudo bem?
-
-Conforme combinado, segue abaixo a ATA da entrevista, que especifica as visões que gostariam de ter na Adobe referente ao Blog.
-
-Só precisamos definir se vamos colocar as informações do blog no mesmo Report Suite da adobe.
-
-Segue como vai ficar:
-
-## Leads x Last Touch Channel (Blog)
-
-Segue como ficaria a atribuição de Marketing Channel(last ou first) para a seguinte situação.
-
-Um visitante com a origem do blog realizou uma conversão(cadastro e etc) como seria a visão:
+Boa noite Rafael e Tiago. Tudo bem?
+Referente ao blog. Fui pego de surpresa com a notícia que o mesmo vai subir segunda, então desenvolvi os documentos Solution Design e TechSpec hoje, já prevendo como vai ser a camada de dados e disparos das triggers, vocês poderiam configurar o DTM em staging esperando esses eventos?
+Segue o documento anexo, também estou enviando ATA da entrevista, que especifica as visões que a área gostaria de ter na Adobe.
 
 
-No mesmo Report Suite:
-	
-Lead | Touch Channel | Internal Campaign| Cam Obs
-------- | ----------------| ----- | ---------- 
-1 | Campaign Source(x)   | Blog |O Lead vai ser atribuído para a campanha que levou o visitante para o blog.
-   
-	
-	
-Em RS diferentes:
+Outro ponto é que estamos com um back-log bem grande referente ao tagueamento dos novos produtos. Para ajudar eu e o Caio fizemos um cronograma, com as datas e nossas expectativas de implementação, conseguem dar uma olhada se está ok por vocês.
 
-Lead | Touch Channel | Obs
-------- | ---------------- | ---------- 
-1 | internal campaign : Blog   | O Lead vai ser atribuído para a campanha interna : Blog.
+Qualquer dúvida estou à disposição.
+Obrigado e abs.
 
 
 
@@ -35,32 +16,7 @@ Lead | Touch Channel | Obs
 
 # Correção
 
-Bom dia, Pessoal! Tudo bem com vocês?
-
-Conforme combinado, segue abaixo a Ata da entrevista, que especifica as visões que vocês gostariam de ter na Adobe referente ao Blog.
-
-Precisamos somente definir se vamos colocar as informações do blog no mesmo Report Suite da adobe.
-
-Segue como ficaria:
-
-## Leads x Last Touch Channel (Blog)
-
-Exemplo de como ficaria a atribuição de Marketing Channel (last ou first) para a seguinte situação.
-
-Um visitante com a origem do blog realizou uma conversão (cadastro etc) como seria a visão:
 
 
-No mesmo Report Suite:
-	
-Lead | Touch Channel | Obs
-------- | ---------------- | ---------- 
-1 | Campaign Source(x)   | O Lead será atribuído para a campanha que levou o visitante para o blog.
-   
-	
-	
-Em RS diferentes:
 
-Lead | Touch Channel | Obs
-------- | ---------------- | ---------- 
-1 | internal campaign : Blog   | O Lead será atribuído para a campanha interna: Blog.
 
