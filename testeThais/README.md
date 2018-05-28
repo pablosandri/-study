@@ -1,22 +1,33 @@
 # Pablo
 
-Senhores, bom dia.  Tudo bem?
+Olá Pessoal, bom dia. Tudo bem?
 
-Estou compartilhando com vocês uma View de Crédito para acompanhamento Diário/Mensal, dado o que temos disponível na coleta de dados presente hoje na Adobe.
+Conforme combinado, segue abaixo a ATA da entrevista, que especifica as visões que gostariam de ter na Adobe referente ao Blog.
 
-Segue o link:
-https://sc5.omniture.com/x/5_61akj
+Só precisamos definir se vamos colocar as informações do blog no mesmo Report Suite da adobe.
 
-ou 
+Segue como vai ficar:
 
-Caminho: 
-Adobe Analytics > Workspace > View Crédito
+## Leads x Last Touch Channel (Blog)
 
+Segue como ficaria a atribuição de Marketing Channel(last ou first) para a seguinte situação.
 
+Um visitante com a origem do blog realizou uma conversão no nosso como seria a visão:
 
-Caso vocês tenham sugestões ou dúvidas sobre os dados fornecidos estou à disposição.
+No mesmo Report Suite:
 
-	Obs: O funil de conversão de Crédito está com Bug, estou investigando o incidente.
+	
+Lead | Touch Channel | Obs
+------- | ---------------- | ---------- 
+1 | Campaign Source(x)   | O Lead vai ser atribuído para a campanha que levou o visitante para o blog.
+   
+	
+Em RS diferentes:
+
+Lead | Touch Channel | Obs
+------- | ---------------- | ---------- 
+1 | internal campaign : Blog   | O Lead vai ser atribuído para a campanha interna : Blog.
+
 
 
 
