@@ -12,15 +12,16 @@ Segue como vai ficar:
 
 Segue como ficaria a atribuição de Marketing Channel(last ou first) para a seguinte situação.
 
-Um visitante com a origem do blog realizou uma conversão no nosso como seria a visão:
+Um visitante com a origem do blog realizou uma conversão(cadastro e etc) como seria a visão:
+
 
 No mesmo Report Suite:
-
 	
 Lead | Touch Channel | Obs
 ------- | ---------------- | ---------- 
 1 | Campaign Source(x)   | O Lead vai ser atribuído para a campanha que levou o visitante para o blog.
    
+	
 	
 Em RS diferentes:
 
