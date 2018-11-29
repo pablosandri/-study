@@ -1,4 +1,4 @@
-![SerasEmpreendedor](http://lucida-brasil.github.io/public/Images/zoly-logo.png)
+![SerasEmpreendedor](https://pablosandri.github.io/sandbox/Serasa%20Empreendedor.jpg)
 
 Área - Digital Analytics
 
