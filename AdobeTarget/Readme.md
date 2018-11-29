@@ -1,3 +1,13 @@
+![SerasEmpreendedor](http://lucida-brasil.github.io/public/Images/zoly-logo.png)
+
+Área - Digital Analytics
+
+# Adobe Target
+
+Última atualização: 12/09/2017
+
+Em caso de dúvidas, entrar em contato com: [brf@zoly.com.br](mailto:brf@zoly.com.br)
+
 ## Implementação Adobe Target
 
 ### Dynamic Tag Manager
