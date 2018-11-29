@@ -30,7 +30,7 @@ Para o funcionamento correto do DTM, o seguinte código deve ser inserido antes 
 
 ### Camada de dados (dataLayer)
 
-Para implementar a audiencia customizada por faixa de score. Precisamos informar a faixa de score do usuário no dataLayer.
+Para implementar a audiencia customizada por faixa de score é precisamos informar a faixa de score do usuário no dataLayer e persistir essa informação na session do usuário.
 
 EX:
 
@@ -51,3 +51,18 @@ document.DataLayer = {
     },rule: "pageLoad",
 }
 ```
+
+| bucketScore | Value |
+|--|--|
+| 0-5 | 'default' |
+| 6-99 | 1 |
+| 100-199 | 2 |
+| 200-299 | 3 |
+| 300-399 | 4 |
+| 400-499 | 5 |
+| 500-599 | 6 |
+| 600-699 | 7 |
+| 700-799 | 8 |
+| 800-899 | 9 |
+| 900-1000 | 10 |
+
