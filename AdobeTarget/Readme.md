@@ -6,7 +6,7 @@
 
 Última atualização: 12/09/2017
 
-Em caso de dúvidas, entrar em contato com: [brf@zoly.com.br](mailto:brf@zoly.com.br)
+Em caso de dúvidas, entrar em contato com: [pablo.sandri@br.experian.com](mailto:pablo.sandri@br.experian.com)
 
 ## Implementação Adobe Target
 
