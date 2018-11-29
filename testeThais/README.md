@@ -37,7 +37,7 @@ EX:
 ```javascript
 document.DataLayer = {
     custom:{
-	bucketScore: "default"
+	bucketScore: "default"   //New
     },pageInfo: {
 	pageName: "SA:LG:MEMEI:Institucional:Home",
 	siteSection: "LG",
