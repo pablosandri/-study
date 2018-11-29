@@ -37,17 +37,17 @@ EX:
 ```javascript
 document.DataLayer = {
     custom:{
-		bucketScore: "default"
+	bucketScore: "default"
     },pageInfo: {
-		pageName: "SA:LG:MEMEI:Institucional:Home",
-		siteSection: "LG",
-		subSection: "Institucional",
-		tipoDeCanal: "WEB",
-		url: "https://www.serasaempreendedor.com.br/home",
+	pageName: "SA:LG:MEMEI:Institucional:Home",
+	siteSection: "LG",
+	subSection: "Institucional",
+	tipoDeCanal: "WEB",
+	url: "https://www.serasaempreendedor.com.br/home",
     },userInfo: {
-            businessId: "5bb35ad546e0fb000dcae669",
-            clientId: "5a71e736eb1cf54a9c106a8d",
-            userId: "5bb35ad546e0fb000dcae66a"
+        businessId: "5bb35ad546e0fb000dcae669",
+	clientId: "5a71e736eb1cf54a9c106a8d",
+	userId: "5bb35ad546e0fb000dcae66a"
     },rule: "pageLoad",
 }
 ```
