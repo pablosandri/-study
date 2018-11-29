@@ -1,60 +1,21 @@
-## Homologação ambiente Piki v1
+## Otimização da implementação Adobe Target
 
-### Todas as páginas
+### Dynamic Tag Manager
 
-1) Alterar o objeto pageInfo:
+É uma ferramenta da Adobe onde são inseridas pequenas instruções javascript com a finalidade de estruturar a coleta dados e unificar diversos fornecedores de tags terceiros sem a necessidade de várias implementações complexas de hardcode do projeto. 
 
-DE:
-```javascript
-pageInfo: {
-	ambiente:"NL"
-	pageName:"SA:NL:MEMEI:Institucional:Home"
-	sitesection:"Institucional"
-	subsection:""
-	subsection2:""
-	tipoDeCanal:"WEB"
-	url:"https://serasa-empreendedor.apikihomolog.com/"
-}
+- Instalação
+
+  Para instalar o DTM é preciso que o desenvolvedor inclua os códigos abaixo no HTML do site, em todas as páginas do site proposto. Caso o site possua algum template comum que é inserido em todas as páginas, também pode ser utilizado.
+
+Cole o código abaixo após a tag `<head>` do site:
+
+Produção:
+```html
+<script src="//assets.adobedtm.com/5fb4a4ca2787b58aa33f33d1e808a50cf47cc1e0/satelliteLib-a7d32691cef9933bb94547afb02e06958cd9c968.js"></script>
 ```
 
-PARA:
-```javascript
-pageInfo: {
-	"url": "document.url",
-	"pageName": "Consultar na aba PageNames",
-	"siteSection": "NL",
-	"subSection": "Institucional ou Blog",
-	"subsection2":"",
-	"tipoDeCanal": "WEB",
-}
+Staging:
+```html
+<script src="//assets.adobedtm.com/5fb4a4ca2787b58aa33f33d1e808a50cf47cc1e0/satelliteLib-a7d32691cef9933bb94547afb02e06958cd9c968-staging.js"></script>
 ```
-2) Não estamos conseguindo monitorar os cliques em links. Favor conferir se está acontecendo a atualização da camada de dados e disparo da trigger *em todos os botões*.
-
-Ex:
-```javascript
-document.DataLayer.custom =  {
-         events: ['cliquesGenericos'],
-          itemClicado: 'BTN:MEMEI:Institucional:[LabelDoBotao]:[Local]',
-         customLink:  'Institucional | CliquesGenericos',
-}
-
-document.dispatchEvent(new CustomEvent("CliquesGenericos",{'detail': document.DataLayer}));
-```
-3) Observei que no nosso ambiente DEV as trocas de páginas não são assícronas, isso vai pendurar para PROD?
-
-Obs: Caso ocorra a troca de página assícrona devemos atualizar a camada de dados e disparar a seguinte trigger:
-```javascript
-document.dispatchEvent(new CustomEvent("CustomPageView",{'detail': document.DataLayer}));
-```
-4) Os valores especificados no TechSpec com `[]` são variáveis e seus valores devem ser substituídos.
-Ex:
-
-         itemClicado: 'BTN:MEMEI:Institucional:[LabelDoBotao]:[Local]',
-
-    Como deve ser implementado:
-
-
-         itemClicado: 'BTN:MEMEI:Institucional:ConsulteAgora:Banner',
-
-5) Só pode existir o `userID` e `businessId` quando o user estiver logado. Caso contrario excluir os atributos.
-  
