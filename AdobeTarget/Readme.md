@@ -4,7 +4,7 @@
 
 # Adobe Target
 
-Última atualização: 12/09/2017
+Última atualização: 30/10/2018
 
 Em caso de dúvidas, entrar em contato com: [pablo.sandri@br.experian.com](mailto:pablo.sandri@br.experian.com)
 
@@ -16,7 +16,7 @@ Em caso de dúvidas, entrar em contato com: [pablo.sandri@br.experian.com](mailt
 
 - Instalação
 
-  Para instalar o DTM é preciso que o desenvolvedor inclua os códigos abaixo no HTML do site, em todas as páginas do site proposto. Caso o site possua algum template comum que é inserido em todas as páginas, também pode ser utilizado.
+Para instalar o DTM é preciso que o desenvolvedor inclua os códigos abaixo no HTML do site, em todas as páginas do site proposto. Caso o site possua algum template comum que é inserido em todas as páginas, também pode ser utilizado.
 
 Cole o código abaixo após a tag `<head>` do site:
 
@@ -40,7 +40,7 @@ Para o funcionamento correto do DTM, o seguinte código deve ser inserido antes 
 
 ### Camada de dados (dataLayer)
 
-Para implementar a audiencia customizada por faixa de score é precisamos informar a faixa de score do usuário no dataLayer e persistir essa informação na session do usuário.
+Para implementar a audiencia customizada no Target é preciso informar a faixa de score do usuário no dataLayer e persistir essa informação na session do usuário.
 
 EX:
 
