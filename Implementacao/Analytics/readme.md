@@ -47,21 +47,35 @@ Inserir a camada de dados antes do snippet de instalação do Google Tag Manager
 ```html
 <script>
 document.DataLayer = {
-	pageInfo = {
+	pageInfo: {
 		pageName: "SA:NL:MEMEI:Institucional:Home",
 		siteSection: "NL",
 		subSection: "Institucional",
 		subSection2: "Institucional",
 		tipoDeCanal: "WEB",
 		url: "https://www.serasaempreendedor.com.br",
-	}, userInfo = {
+	}, userInfo: {
 		businessId: "djksahdsdhasd",
 		clientId: "5a71e736eb1cf54a9c106a8d",
 		userId: "SDAFSDAD"
-	}, rule = pageLoad
+	}, rule: "pageLoad"
 }
 </script>
 ```
+
+| CHAVE    | TIPO  | DESCRIÇÃO |
+| :------- | :---- | :--- |
+| pageName | String | Nome da sua página ou pathName |
+| siteSection |String | NL(não logado) ou LG(logado) |
+| subSection |String | Não obrigatório |
+| subSection |String | Não obrigatório |
+| tipoDeCanal |String | WEB, Msite e etc |
+| url |String | document.location.href |
+| businessId |String | identificador unico da empresa |
+| clientId |String | Id do banco de dados |
+| userID |String | Identificador unico do usuário |
+
+
 
 ## Atributos HTML (Data Attributes)
 
