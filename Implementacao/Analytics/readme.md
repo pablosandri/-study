@@ -1,4 +1,4 @@
-![CI&T](https://pablosandri.github.io/sandbox/empreendedor.jpg)
+![SerasaEmpreendedor](https://pablosandri.github.io/sandbox/empreendedor.jpg)
 
 # Implementação Adobe Analytics - TAGS Audiência 
 
