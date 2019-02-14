@@ -92,5 +92,6 @@ window.analyticsData = {
 (...)
 
 };
-document.dispatchEvent(new CustomEvent("CustomPageView",{'detail': document.DataLayer}));
+document.dispatchEvent(new CustomEvent("CustomPageView",{'detail': document.DataLayer})); 
+//Informa o TagManager que ocorreu a troca de página
 ```
