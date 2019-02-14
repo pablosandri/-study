@@ -1,31 +1,36 @@
-![CI&T](https://pablosandri.github.io/sandbox/ciandt.png)
+![CI&T](https://pablosandri.github.io/sandbox/empreendedor.jpg)
 
-# CI&T - Fleet
+# Implementação Adobe Analytics - Audiência 
 
-Última atualização: 28/02/2018
+Última atualização: 14/02/2019
 
-Em caso de dúvidas, entrar em contato com: [psandri@ciandt.com](mailto:psandri@ciandt.com)
+Em caso de dúvidas, entrar em contato com: [pablo.sandri@br.experian.com](mailto:pablo.sandri@br.experian.com)
 
 # Objetivo
 
-Este documento tem como objetivo documentar a implementação do Google Tag Manager e camada de dados para utilização de recursos de monitoramento do Google Analytics.
+Este documento tem como objetivo documentar a implementação do Adobe Launch e camada de dados para utilização de recursos de monitoramento do Adobe Analyics.
 
 # Overview e Descrições Técnicas
 
-## Google Tag Manager 
+## Adobe Launch
 
-É uma ferramenta da Google onde são inseridas pequenas instruções javascript com a finalidade de estruturar a coleta dados e unificar diversos fornecedores de tags terceiros sem a necessidade de várias implementações complexas de hardcode do projeto. 
+É uma ferramenta da Adobe onde são inseridas pequenas instruções javascript com a finalidade de estruturar a coleta dados e unificar diversos fornecedores de tags terceiros sem a necessidade de várias implementações complexas de hardcode do projeto. 
 
 - Instalação
 
-  Para instalar o  Google Tag Manager é preciso que o desenvolvedor inclua os códigos abaixo no HTML do site, em todas as páginas do site proposto. Caso o site possua algum template comum que é inserido em todas as páginas, também pode ser utilizado.
+Para instalar o  Launch é preciso que o desenvolvedor inclua os códigos abaixo no HTML do site, em todas as páginas do site proposto. Caso o site possua algum template comum que é inserido em todas as páginas, também pode ser utilizado.
 
 Cole o código abaixo após a tag `<head>` do site:
 
 ```html
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TPWCNC9');</script>
-<!-- End Google Tag Manager -->
+<!-- Adobe Launch (Development) -->
+<script src="//assets.adobedtm.com/launch-EN2f1e0631b5294323815d22c26bc35f50-development.min.js" async></script>
+<!-- End Adobe Launch -->
+
+<!-- Adobe Launch (Development) -->
+<script src="//assets.adobedtm.com/launch-EN2f1e0631b5294323815d22c26bc35f50-development.min.js" async></script>
+<!-- End Adobe Launch -->
+
 ```
 
 Cole o código abaixo, após a tag `<body>` do site:
