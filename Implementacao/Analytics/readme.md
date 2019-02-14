@@ -92,11 +92,5 @@ window.analyticsData = {
 (...)
 
 };
-
-	window.analyticsData = {
-
-(...)
-
-};
 document.dispatchEvent(new CustomEvent("CustomPageView",{'detail': document.DataLayer}));
 ```
