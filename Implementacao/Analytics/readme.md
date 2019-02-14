@@ -24,26 +24,19 @@ Cole o código abaixo após a tag `<head>` do site:
 
 ```html
 <!-- Adobe Launch (Development) -->
-<script src="//assets.adobedtm.com/launch-EN2f1e0631b5294323815d22c26bc35f50-development.min.js" async></script>
+<script src="//assets.adobedtm.com/launch-EN2f1e0631b5294323815d22c26dsabc35f50-development.min.js" async></script>
 <!-- End Adobe Launch -->
 
-<!-- Adobe Launch (Development) -->
-<script src="//assets.adobedtm.com/launch-EN2f1e0631b5294323815d22c26bc35f50-development.min.js" async></script>
+<!-- Adobe Launch (Producao) -->
+<script src="//assets.adobedtm.com/launch-EN2f1e0631b5294323815d22c26bc35sdf50.min.js" async></script>
 <!-- End Adobe Launch -->
 
 ```
 
-Cole o código abaixo, após a tag `<body>` do site:
-
-```html
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?GTM-TPWCNC9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-```
 
 ## Camada de dados (DataLayer)
 
-É um array de objetos javascript utilizado pelo Google Tag Manager para receber em seus atributos dados importantes do site.
+É um Objeto javascript utilizado pelo Launch para receber em seus atributos dados importantes do site.
 Para implementar o dataLayer no site, o desenvolvedor pode utilizar formas diferentes para preencher os dados. Essas formas são dependentes da ação estabelecida na documentação e também do nível da interação. 
 
 - Instalação
@@ -53,11 +46,20 @@ Inserir a camada de dados antes do snippet de instalação do Google Tag Manager
 			
 ```html
 <script>
-  window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push({
-    'atributo1': 'valor1',
-    'atributo2': 'valor2'
-  });
+document.DataLayer = {
+	pageInfo = {
+		pageName: "SA:NL:MEMEI:Institucional:Home",
+		siteSection: "NL",
+		subSection: "Institucional",
+		subSection2: "Institucional",
+		tipoDeCanal: "WEB",
+		url: "https://www.serasaempreendedor.com.br",
+	}, userInfo = {
+		businessId: "djksahdsdhasd",
+		clientId: "5a71e736eb1cf54a9c106a8d",
+		userId: "SDAFSDAD"
+	}, rule = pageLoad
+}
 </script>
 ```
 
