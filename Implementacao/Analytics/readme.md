@@ -45,6 +45,12 @@ Inserir a camada de dados antes do snippet de instalação do Google Tag Manager
 
 			
 ```html
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br" class="no-js">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge;requiresActiveX=true">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="cache-control" content="no-cache">
+<meta name="language" content="pt-br" />
 <script>
 document.DataLayer = {
 	pageInfo: {
@@ -61,6 +67,8 @@ document.DataLayer = {
 	}, rule: "pageLoad"
 }
 </script>
+<script src="//assets.adobedtm.com/launch-EN2f1e0631b5294323815d22c26dsabc35f50-development.min.js" async></script>
+	
 ```
 
 | CHAVE    | TIPO  | DESCRIÇÃO |
