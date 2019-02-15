@@ -8,17 +8,17 @@ Em caso de dúvidas, entrar em contato com: [pablo.sandri@br.experian.com](mailt
 
 # Objetivo
 
-Este documento tem como objetivo documentar a implementação do Adobe Launch e camada de dados para utilização de recursos de monitoramento do Adobe Analyics.
+Este documento, tem como objetivo, documentar a implementação do Adobe Launch e camada de dados, para utilização de recursos de monitoramento do Adobe Analyics.
 
 # Overview e Descrições Técnicas
 
 ## Adobe Launch
 
-É uma ferramenta da Adobe onde são inseridas pequenas instruções javascript com a finalidade de estruturar a coleta dados e unificar diversos fornecedores de tags terceiros sem a necessidade de várias implementações complexas de hardcode do projeto. 
+É uma ferramenta da Adobe, onde são inseridas pequenas instruções javascript, com a finalidade de estruturar a coleta dados e unificar diversos fornecedores de tags terceiros, sem a necessidade de várias implementações complexas de hardcode do projeto. 
 
 - Instalação
 
-Para instalar o  Launch é preciso que o desenvolvedor inclua os códigos abaixo no HTML do site, em todas as páginas do site proposto. Caso o site possua algum template comum que é inserido em todas as páginas, também pode ser utilizado.
+Para instalar o Launch é preciso que o desenvolvedor inclua os códigos abaixo no HTML do site, em todas as páginas do site proposto. Caso o site possua algum template comum que é inserido em todas as páginas, também pode ser utilizado.
 
 Cole o código abaixo após a tag `<head>` do site:
 
@@ -36,7 +36,7 @@ Cole o código abaixo após a tag `<head>` do site:
 
 ## Camada de dados (DataLayer)
 
-É um Objeto javascript utilizado pelo Launch para receber em seus atributos dados importantes do site.
+É um Objeto javascript utilizado pelo Launch, para receber em seus atributos dados importantes do site.
 Para implementar o dataLayer no site, o desenvolvedor pode utilizar formas diferentes para preencher os dados. Essas formas são dependentes da ação estabelecida na documentação e também do nível da interação. 
 
 - Instalação
