@@ -24,11 +24,11 @@ Cole o código abaixo após a tag `<head>` do site:
 
 ```html
 <!-- Adobe Launch (Development) -->
-<script src="//assets.adobedtm.com/launch-EN2f1e0631b5294323815d22c26dsabc35f50-development.min.js" async></script>
+<script src="//assets.adobedtm.com/launch-EN2f1e0631b5294323815d22c26bc35f50-development.min.js" async></script>
 <!-- End Adobe Launch -->
 
-<!-- Adobe Launch (Producao) -->
-<script src="//assets.adobedtm.com/launch-EN2f1e0631b5294323815d22c26bc35sdf50.min.js" async></script>
+<!-- Adobe Launch (Production) -->
+<script src="//assets.adobedtm.com/launch-EN5708632a55434a96a1b9a3c29c824215.min.js" async></script>
 <!-- End Adobe Launch -->
 
 ```
