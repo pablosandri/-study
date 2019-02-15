@@ -8,7 +8,7 @@ Em caso de dúvidas, entrar em contato com: [pablo.sandri@br.experian.com](mailt
 
 # Objetivo
 
-Este documento, tem como objetivo, documentar a implementação do Adobe Launch e camada de dados, para utilização de recursos de monitoramento do Adobe Analyics.
+Este documento, tem como objetivo, especificar a implementação do Adobe Launch e camada de dados, para utilização de recursos de monitoramento do Adobe Analyics.
 
 # Overview e Descrições Técnicas
 
