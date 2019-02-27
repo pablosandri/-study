@@ -50,4 +50,18 @@
 ##### Corrigido a implantação do *Adobe Target* que impossibilitava o uso no site. Agora é possivel personalizar a jornada do usuário em todas as páginas, relatórios e pagamento.
 
 ## Email Mkt
-##### Implantação do *Eloqua* via front-end.
+##### Implantação do *Eloqua* via front-end e duas triggers implementadas.
+
+Cadastro:
+Quando o usuário se cadastra na plataforma automaticamente é cadastrado no Eloqua em real-time.
+
+Purchase:
+Na compra é gravado todos os detalhes no eloqua.
+
+
+
+
+
+
+
+
