@@ -22,7 +22,7 @@
 -->
 ```
 
-### Saúde Financeira
+## Saúde Financeira
 
 #### Email Mkt
 ##### Enriquecimento na coleta de dados de compra referente aos produtos Recomendação, Saúde Avulso e Assinatura. Dados coletados:
@@ -35,3 +35,19 @@
 -->
 ```
 
+
+# Consulta Serasa
+
+## Nova arquitetura de mensuração
+##### Novo Tag Manager Implementado para garantir a coleta de dados estruturados e interações harmoniosas com aplicações de página única (SPAs).
+
+## Analytcs
+##### Novo tagueamento de Purchase e integração com O2C. 
+##### Dados disponibilizados:
+
+
+## Target (teste a/b)
+##### Corrigido a implantação do *Adobe Target* que impossibilitava o uso no site. Agora é possivel personalizar a jornada do usuário em todas as páginas, relatórios e pagamento.
+
+## Email Mkt
+##### Implantação do *Eloqua* via front-end.
