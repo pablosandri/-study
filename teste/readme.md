@@ -1,6 +1,6 @@
-## Serasa Empreendedor
+# Serasa Empreendedor
 
-### Marketplace de crédito
+## Marketplace de crédito
 
 #### Analytics
 ##### Nova implementação no *Adobe Analytics* para suportar diferentes produtos na simulação.
@@ -29,8 +29,9 @@
 
 ```html
 <!--
-Recomenda: Purchase, Purchase_Last_Date, Payment_Methods
-SF-Avulso: Purchase, Purchase_Last_Date, Payment_Methods
-SF-Assinatura: Purchase, Purchase_Last_Date, Payment_Methods
+  Recomenda: Purchase, Purchase_Last_Date, Payment_Methods
+  SF-Avulso: Purchase, Purchase_Last_Date, Payment_Methods
+  SF-Assinatura: Purchase, Purchase_Last_Date, Payment_Methods
 -->
 ```
+
