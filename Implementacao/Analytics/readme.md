@@ -1,6 +1,6 @@
 ![SerasaEmpreendedor](https://pablosandri.github.io/sandbox/empreendedor.jpg)
 
-# Implementação Adobe Analytics - CS TAGS de Audiência 
+# Implementação Adobe Analytics
 
 Última atualização: 14/02/2019
 
@@ -24,11 +24,11 @@ Cole o código abaixo após a tag `<head>` do site:
 
 ```html
 <!-- Adobe Launch (Development) -->
-<script src="//assets.adobedtm.com/launch-EN2f1e0631b5294323815d22c26bc35f50-development.min.js" async></script>
+<script src="//assets.adobedtm.com/launch-EN413aaf47a48141d6bc6ed1c7690ff2c2-development.min.js" async></script>
 <!-- End Adobe Launch -->
 
 <!-- Adobe Launch (Production) -->
-<script src="//assets.adobedtm.com/launch-EN5708632a55434a96a1b9a3c29c824215.min.js" async></script>
+<script src="//assets.adobedtm.com/launch-ENb21669b263d94445ae441ef45fcca0e3.min.js" async></script>
 <!-- End Adobe Launch -->
 
 ```
@@ -54,15 +54,15 @@ Inserir a camada de dados antes do snippet de instalação do Google Tag Manager
 <script>
 document.DataLayer = {
 	pageInfo: {
-		pageName: "SA:NL:MEMEI:Institucional:Home",
+		pageName: "Home",
 		siteSection: "NL",
 		subSection: "Institucional",
 		subSection2: "Institucional",
 		tipoDeCanal: "WEB",
-		url: "https://www.serasaempreendedor.com.br",
+		url: document.location.href,
 	}, userInfo: {
-		businessId: "djksahdsdhasd",
-		clientId: "5a71e736eb1cf54a9c106a8d",
+		businessId: "djksahddadasdadasdsdhasd",
+		clientId: "5a71e736eb1asdcf54a9c106a8d",
 		userId: "SDAFSDAD"
 	}, rule: "pageLoad"
 }
