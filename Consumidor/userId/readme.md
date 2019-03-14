@@ -2,13 +2,13 @@
 
 # CI&T - Fleet
 
-Última atualização: 28/02/2018
+Última atualização: 14/03/2019
 
-Em caso de dúvidas, entrar em contato com: [psandri@ciandt.com](mailto:psandri@ciandt.com)
+Em caso de dúvidas, entrar em contato com: [pablo.sandri@br.experian.com](mailto:pablo.sandri@br.experian.com)
 
 # Objetivo
 
-Este documento tem como objetivo documentar a implementação do Google Tag Manager e camada de dados para utilização de recursos de monitoramento do Google Analytics.
+Este documento tem como objetivo orientar a implementação do Google Tag Manager e camada de dados para utilização de recursos de monitoramento do Google Analytics.
 
 # Overview e Descrições Técnicas
 
@@ -55,40 +55,6 @@ Inserir a camada de dados antes do snippet de instalação do Google Tag Manager
   });
 </script>
 ```
-
-## Atributos HTML (Data Attributes)
-
-São atributos customizados inseridos nos elementos HTML da página que permite a inclusão de dados adicionais.
-
-- Instalação
-
-1. Elementos de link: ```<a href="..." class="minha_classe">Link</a>```
-
-Elementos do tipo link que foram mapeados, precisam receber a classe **gtm-link-event** e os data attributes em sua estrutura.
-
-```html
-<a href="http://www.meudominio.com.br/page2"
-  class="minha_classe gtm-link-event"
-  data-gtm-event-category="exemplo valor categoria"
-  data-gtm-event-action="exemplo valor acao"
-  data-gtm-event-label="exemplo valor rotulo">Texto do link</a>
-```
-
-2. Elementos comuns: ```<div class="minha_classe">Elemento</div>``` 
-
-Todos os elementos comuns do html que não são links e que foram mapeados, precisam receber a classe **gtm-element-event** em sua estrutura.
-		
-```html
-<div class="minha_classe gtm-element-event" 
-  data-gtm-event-category="exemplo valor categoria"
-  data-gtm-event-action="exemplo valor acao"
-  data-gtm-event-label="exemplo valor rotulo">Texto do elemento</div>
-```
-
-## Eventos <br />
-
-São estruturas de dados que muitas vezes são consideradas como conversões ou micro conversões e servem para identificar as interações do usuário que foram mapeadas para coleta. Esses eventos podem ser implementados através de Data Atributos ou Camada de Dados conforme descrito acima.
-
 
 > **Observação**
 > Os valores especificados entre colchetes `[[ ]]` são variáveis dinâmicas e devem ser substituídas por seus respectivos valores.<br />
