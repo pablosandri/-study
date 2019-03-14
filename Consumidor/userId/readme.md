@@ -94,10 +94,23 @@ Descrição: Disparar as informações no dataLayer no callback da função de l
   window.dataLayer = window.dataLayer || [];
   dataLayer.push({
     'event': 'login', // fixo
-    'userId': 'psandri',
     'eventCategory': 'login', // fixo
     'eventAction': 'sucesso', // fixo
     'eventLabel': 'login' //fixo
+    'userId': 'psandri',
+	'tipoUsuario': 'Cadastrado', //identificação se usuário cadastrado ou não cadastrado
+    'customerID': 'CUSTOMERID' //informar apenas após o usuário autenticar no site
+    'possuiEmpresa': 'sim' //informar apenas após o usuário autenticar no site
+    'possuiDivida': 'sim' //informar apenas após o usuário autenticar no site
+    'nomeEmpresa': 'sim' //informar apenas após o usuário autenticar no site
+    'score': '[array]' //informar apenas após o usuário autenticar no site, essa informação deve ser apresentada de forma criptografada.
+    'solicitouCartao': 'sim' //informar apenas após o usuário autenticar no site
+    'ocupacao': '[array]' //informar apenas após o usuário autenticar no site
+    'profissao': '[array]' //informar apenas após o usuário autenticar no site
+    'veiculoProprio': 'sim' //informar apenas após o usuário autenticar no site
+    'motivoCredito': '[array]' //informar apenas após o usuário autenticar no site
+    'tipoCredito': '[array]' //informar apenas após o usuário autenticar no site
+    'valorCredito': 'valor' //informar apenas após o usuário autenticar no site
   });
 ```
 
