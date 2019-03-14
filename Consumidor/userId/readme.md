@@ -98,7 +98,7 @@ Descrição: Disparar as informações no dataLayer no callback da função de l
     'eventAction': 'sucesso', // fixo
     'eventLabel': 'login' //fixo
     'userId': 'psandri',
-	'tipoUsuario': 'Cadastrado', //identificação se usuário cadastrado ou não cadastrado
+    'tipoUsuario': 'Cadastrado', //identificação se usuário cadastrado ou não cadastrado
     'customerID': 'CUSTOMERID' //informar apenas após o usuário autenticar no site
     'possuiEmpresa': 'sim' //informar apenas após o usuário autenticar no site
     'possuiDivida': 'sim' //informar apenas após o usuário autenticar no site
@@ -124,6 +124,5 @@ Descrição: Disparar as informações no dataLayer no callback da função de l
     'event': 'logout' // fixo
   });
 ```
-
 <br />
 
